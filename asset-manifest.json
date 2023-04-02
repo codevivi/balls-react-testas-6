@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/balls-react-testas-6/static/css/main.5a111443.css",
+    "main.js": "/balls-react-testas-6/static/js/main.e85aafdd.js",
+    "static/js/787.f9453891.chunk.js": "/balls-react-testas-6/static/js/787.f9453891.chunk.js",
+    "index.html": "/balls-react-testas-6/index.html",
+    "main.5a111443.css.map": "/balls-react-testas-6/static/css/main.5a111443.css.map",
+    "main.e85aafdd.js.map": "/balls-react-testas-6/static/js/main.e85aafdd.js.map",
+    "787.f9453891.chunk.js.map": "/balls-react-testas-6/static/js/787.f9453891.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a111443.css",
+    "static/js/main.e85aafdd.js"
+  ]
+}

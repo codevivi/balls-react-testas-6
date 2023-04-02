@@ -1,13 +1,72 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+main {
+  flex: 1;
+  height: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.stage {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+  align-items: stretch;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  margin-top: 2em;
+  gap: 5px;
+  flex: 1;
+}
+.stage > div {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+  background-color: rgba(5, 102, 54, 0.555);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.half {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  height: fit-content;
+}
+.ball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2vw;
+  height: 2vw;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  background-color: rgb(255, 217, 0);
+  cursor: pointer;
+}
+.btn-reset {
+  margin-top: 2em;
+  width: fit-content;
+  margin-left: 2em;
+  padding: 1em 2em;
+  background-color: rgb(255, 217, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-reset:hover,
+.btn-reset:focus,
+.ball:hover,
+.ball:focus {
+  background-color: rgb(241, 235, 138);
 }

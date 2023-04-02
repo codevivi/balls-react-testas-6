@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# JS tarpinio žinių patikrinimo testas #6
+
+Homework _2023-03-30_
+
+Simple react app to move balls from one side to another
+
+One button to reset stage and generate new random number of balls (5-15) on left side.
+
+Click on a ball moves it from one side to another. Balls must stay in order.
+
+**further default react readme:**
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

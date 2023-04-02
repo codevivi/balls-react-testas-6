@@ -1,6 +1,8 @@
-# JS tarpinio žinių patikrinimo testas #6
+# React balls, testas #6
 
 Homework _2023-03-30_
+
+Site published at [https://codevivi.github.io/balls-react-testas-6/](https://codevivi.github.io/balls-react-testas-6/)
 
 Simple react app to move balls from one side to another
 
